@@ -26,7 +26,7 @@ def dump_response(response):
     for key in sorted(response.keys()):
         print("  %s: %s" % (key, response[key]))
 name = str(getImage())
-filename = "E:/Python/Selenium/ImagetobeSearched/image.jpg"
+filename = "image.jpg"
 link = str(random.randint(1,10000))
 name = "image" + link
 def upload_files(filename):
