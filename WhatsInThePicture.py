@@ -40,12 +40,3 @@ searchtext = text + "wikipedia"
 textdata = search(searchtext)
 print(textdata)
 cleanup()
-import shutil
-import os
-shutil.rmtree('E:\Python\Selenium\ImagetobeSearched')
-os.mkdir('ImagetobeSearched')
-"""image = cv2.imread('full.jpg')
-image = cv2.resize(image,(800,600))
-font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, textdata, (100,100), font, 1, (0, 255, 0), 1, cv2.LINE_AA)
-cv2.imshow("IMage",image)"""
