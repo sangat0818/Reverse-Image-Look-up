@@ -18,6 +18,6 @@ def getImage():
 	crop = image[y:y+h, x:x+w]
 	#cv2.imshow('Image', crop)
 	#choice = input("Do you want to save the file")
-	cv2.imwrite("ImagetobeSearched/image.jpg" , crop)
+	cv2.imwrite("image.jpg" , crop)
 	cv2.waitKey(5)
 	print("Saved Successfully!!")
